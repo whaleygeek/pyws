@@ -10,9 +10,11 @@ Python worksheets for a programming workshop, first run on 12/02/2014 in Essex
 5. building in minecraft using python
 
 
-To get these resources for the first time:
+To get these resources for the first time, from lxterminal type:
 
+cd ~
 git clone https://github.com/whaleygeek.pyws
+cd pyws
 chmod +x install
 ./install
 
@@ -33,6 +35,9 @@ run in many schools - ask the children "how many computers are in your house".
 an activity in a school in Essex in 2013. The worksheet in docs is self
 explanatory.
 
+Run with runtwurtle
+
+
 3. "Interactive python" - get the children to progress from the twurtle into
 real python and draw simple shapes, and introduce loops (which are intentionally
 not included in twurtle)
@@ -48,6 +53,8 @@ Also gui.py in this folder is a simple example of a tkinter program that you
 press a button and it does something in minecraft. You can run this tkinter
 program on a Mac or PC or another Raspberry Pi and connect over the network
 to remotely control someone else's minecraft game.
+
+Run with runmc
 
 
 

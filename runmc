@@ -1,0 +1,5 @@
+#! /bin/bash
+pushd code/minecraft/mcpi
+./minecraft-pi
+popd
+
