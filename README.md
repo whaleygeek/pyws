@@ -13,6 +13,7 @@ Python worksheets for a programming workshop, first run on 12/02/2014 in Essex
 To get these resources for the first time:
 
 git clone https://github.com/whaleygeek.pyws
+chmod +x install
 ./install
 
 

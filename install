@@ -1,10 +1,14 @@
 #! /bin/bash
 
+# install twurtle
+
 chmod +x runtwurtle
 
-wget https://s3.amazonaws.com/assets.minecraft.net/pi/minecraft-pi-0.1.1.tar.gz
-tar -zxvf minecraft-pi-0.1.1.tar.gz
-chmod +x minecraft-pi
-mv mcpi code/minecraft
+# get and install minecraft and mcpi API
 
- 
+wget https://s3.amazonaws.com/assets.minecraft.net/pi/minecraft-pi-0.1.1.tar.gz
+mv minecraft-pi-0.1.1.tar.gz code/minecraft
+pushd code/minecraft
+tar -zxvf minecraft-pi-0.1.1.tar.gz
+cp -r mcpi/api/python/mcpi/* mcpi
+popd
