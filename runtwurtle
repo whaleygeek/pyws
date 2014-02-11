@@ -1,0 +1,5 @@
+#! /bin/bash
+pushd code/twurtle/src
+python DrawApp.py
+popd
+
