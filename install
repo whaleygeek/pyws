@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# install twurtle
+# configure twurtle
 
 chmod +x runtwurtle
 
